@@ -15,6 +15,8 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="EIP-7702 模拟演示 | Crypto8848 - 数字货币导航">
     <meta property="twitter:description" content="EIP-7702模拟演示，无需真实钱包体验以太坊智能合约授权的革命性变化。">
+    <meta property="twitter:image" content="images/eip-7702.jpg">
+    <meta property="og:image" content="images/eip-7702.jpg">
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="https://crypto8848.com/images/logo.svg">
     <link rel="shortcut icon" type="image/svg+xml" href="https://crypto8848.com/images/logo.svg">
@@ -119,6 +121,207 @@
         }
         .error {
             color: #dc3545;
+        }
+
+        /* 移动设备优化 */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px 5px;
+            }
+            .container {
+                padding: 15px;
+                margin-top: 10px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-top: 1.5rem;
+                margin-bottom: 0.75rem;
+            }
+            h3 {
+                font-size: 1.3rem;
+                margin-top: 1.25rem;
+                margin-bottom: 0.5rem;
+            }
+            p {
+                font-size: 0.95rem;
+                line-height: 1.5;
+                margin-bottom: 0.75rem;
+            }
+            ul, ol {
+                padding-left: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            li {
+                margin-bottom: 0.5rem;
+                font-size: 0.95rem;
+            }
+            .nav-center {
+                margin: 15px 0;
+                gap: 5px;
+            }
+            .nav-button {
+                padding: 8px 15px;
+                margin: 2px;
+                font-size: 0.9rem;
+                min-width: 70px;
+                text-align: center;
+            }
+            .demo-ui {
+                padding: 15px;
+                margin-top: 1rem;
+                border-radius: 8px;
+            }
+            .row {
+                margin-left: -10px;
+                margin-right: -10px;
+            }
+            .col-md-6 {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .account-card {
+                padding: 12px;
+                margin-bottom: 15px;
+                border-radius: 8px;
+            }
+            .account-header {
+                margin-bottom: 8px;
+            }
+            .account-icon {
+                width: 35px;
+                height: 35px;
+                font-size: 0.9rem;
+                margin-right: 8px;
+            }
+            .account-address {
+                font-size: 0.85rem;
+                word-break: break-all;
+                margin-bottom: 5px;
+            }
+            .balance {
+                margin: 8px 0;
+                font-size: 0.95rem;
+            }
+            .btn-action {
+                margin-top: 12px;
+            }
+            .btn {
+                padding: 8px 12px;
+                font-size: 0.9rem;
+                margin-right: 5px;
+                margin-bottom: 5px;
+                border-radius: 6px;
+            }
+            .log-container {
+                height: 150px;
+                padding: 10px;
+                font-size: 0.9rem;
+                border-radius: 6px;
+                margin-top: 15px;
+            }
+            .log-entry {
+                margin-bottom: 6px;
+                padding-bottom: 6px;
+                font-size: 0.9rem;
+            }
+            .alert {
+                padding: 12px;
+                font-size: 0.95rem;
+                border-radius: 6px;
+                margin-bottom: 15px;
+            }
+            .mt-4 {
+                margin-top: 1.25rem !important;
+            }
+            .mt-5 {
+                margin-top: 2rem !important;
+            }
+            footer p {
+                font-size: 0.85rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            body {
+                padding: 5px;
+            }
+            .container {
+                padding: 12px 10px;
+                border-radius: 8px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+                margin-top: 1.25rem;
+            }
+            h3 {
+                font-size: 1.15rem;
+            }
+            p, li {
+                font-size: 0.9rem;
+            }
+            .nav-button {
+                padding: 6px 10px;
+                font-size: 0.85rem;
+                margin: 2px;
+                min-width: 60px;
+                border-radius: 6px;
+            }
+            .demo-ui {
+                padding: 12px 8px;
+                border-radius: 6px;
+            }
+            .account-card {
+                padding: 10px 8px;
+                border-radius: 6px;
+            }
+            .account-icon {
+                width: 30px;
+                height: 30px;
+                font-size: 0.85rem;
+            }
+            .account-address {
+                font-size: 0.75rem;
+            }
+            .balance {
+                font-size: 0.9rem;
+                margin: 6px 0;
+            }
+            .btn {
+                padding: 6px 10px;
+                font-size: 0.85rem;
+                border-radius: 5px;
+            }
+            .log-container {
+                height: 130px;
+                padding: 8px;
+                font-size: 0.85rem;
+                border-radius: 5px;
+            }
+            .log-entry {
+                margin-bottom: 5px;
+                padding-bottom: 5px;
+                font-size: 0.85rem;
+            }
+            .alert {
+                padding: 10px 8px;
+                font-size: 0.85rem;
+                border-radius: 5px;
+            }
+            .text-muted {
+                font-size: 0.8rem;
+            }
+            .text-muted.small {
+                font-size: 0.75rem;
+            }
         }
     </style>
 </head>

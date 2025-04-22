@@ -15,6 +15,8 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="EIP-7702 vs 传统授权 - 对比分析 | Crypto8848">
     <meta property="twitter:description" content="深入对比EIP-7702与传统授权机制的区别，了解以太坊智能合约授权的革命性变化。">
+    <meta property="twitter:image" content="images/eip-7702.jpg">
+    <meta property="og:image" content="images/eip-7702.jpg">
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="https://crypto8848.com/images/logo.svg">
     <link rel="shortcut icon" type="image/svg+xml" href="https://crypto8848.com/images/logo.svg">
@@ -325,6 +327,251 @@
         .transaction-label {
             font-size: 1.2rem;
             color: #777;
+        }
+
+        /* 移动设备优化 */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px 5px;
+            }
+            .container {
+                padding: 15px;
+                margin-top: 10px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-top: 1.5rem;
+                margin-bottom: 0.75rem;
+            }
+            h3 {
+                font-size: 1.3rem;
+                margin-top: 1.25rem;
+                margin-bottom: 0.5rem;
+            }
+            p {
+                font-size: 0.95rem;
+                line-height: 1.5;
+                margin-bottom: 0.75rem;
+            }
+            ul, ol {
+                padding-left: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            li {
+                margin-bottom: 0.5rem;
+                font-size: 0.95rem;
+            }
+            .comparison-section {
+                margin-bottom: 1.5rem;
+            }
+            .comparison-card {
+                min-width: 100%;
+                margin-bottom: 15px;
+                padding: 15px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+            }
+            .comparison-title {
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+            }
+            .nav-center {
+                margin: 15px 0;
+                gap: 5px;
+            }
+            .nav-button {
+                padding: 8px 15px;
+                margin: 2px;
+                font-size: 0.9rem;
+                min-width: 70px;
+                text-align: center;
+            }
+            .comparison-table {
+                display: block;
+                width: 100%;
+                overflow-x: auto;
+                font-size: 0.9rem;
+                margin: 1rem 0;
+                border-radius: 6px;
+            }
+            .comparison-table th, .comparison-table td {
+                padding: 8px;
+            }
+            .code-block {
+                font-size: 0.85rem;
+                padding: 12px 10px;
+                overflow-x: auto;
+                line-height: 1.4;
+                margin: 1rem 0;
+                border-radius: 6px;
+            }
+            .highlight {
+                padding: 12px;
+                margin: 1rem 0;
+                font-size: 0.95rem;
+                border-radius: 6px;
+            }
+            .visual-card {
+                min-width: 100%;
+                margin-bottom: 15px;
+                padding: 15px;
+                border-radius: 8px;
+            }
+            .visual-comparison {
+                flex-direction: column;
+                gap: 15px;
+                margin: 20px 0;
+            }
+            .visual-title {
+                font-size: 1.1rem;
+                margin-bottom: 10px;
+            }
+            .transaction-count {
+                font-size: 2.8rem;
+                margin: 15px 0;
+            }
+            .transaction-label {
+                font-size: 1.1rem;
+            }
+            .pros-cons {
+                flex-direction: column;
+                gap: 15px;
+                margin: 20px 0;
+            }
+            .pros, .cons {
+                width: 100%;
+                margin-bottom: 15px;
+                padding: 15px;
+                border-radius: 8px;
+            }
+            .pros h4, .cons h4 {
+                font-size: 1.1rem;
+                margin-bottom: 10px;
+            }
+            .flow-diagram {
+                flex-direction: column;
+                margin: 20px 0;
+                gap: 10px;
+            }
+            .flow-step {
+                width: 100%;
+                margin-bottom: 10px;
+                padding: 12px;
+                border-radius: 6px;
+                font-size: 0.95rem;
+            }
+            .flow-step::after {
+                content: "\2193";
+                position: static;
+                display: block;
+                text-align: center;
+                margin: 5px 0;
+                transform: none;
+                font-size: 18px;
+                color: var(--primary-color);
+            }
+            .flow-step:last-child::after {
+                content: "";
+            }
+            section {
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.5rem;
+            }
+            footer {
+                margin-top: 2rem;
+                padding-top: 1rem;
+            }
+            footer p {
+                font-size: 0.85rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            body {
+                padding: 5px;
+            }
+            .container {
+                padding: 12px 10px;
+                border-radius: 8px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+                margin-top: 1.25rem;
+            }
+            h3 {
+                font-size: 1.15rem;
+            }
+            p, li {
+                font-size: 0.9rem;
+            }
+            .nav-button {
+                padding: 6px 10px;
+                font-size: 0.85rem;
+                margin: 2px;
+                min-width: 60px;
+                border-radius: 6px;
+            }
+            .comparison-card {
+                padding: 12px 10px;
+                border-radius: 6px;
+            }
+            .comparison-title {
+                font-size: 1.1rem;
+            }
+            .code-block {
+                font-size: 0.8rem;
+                padding: 10px 8px;
+                border-radius: 5px;
+            }
+            .code-comment {
+                display: block;
+                margin-bottom: 3px;
+            }
+            .visual-card {
+                padding: 12px 10px;
+                border-radius: 6px;
+            }
+            .visual-title {
+                font-size: 1rem;
+            }
+            .transaction-count {
+                font-size: 2.5rem;
+                margin: 12px 0;
+            }
+            .transaction-label {
+                font-size: 0.9rem;
+            }
+            .pros, .cons {
+                padding: 12px 10px;
+                border-radius: 6px;
+            }
+            .pros h4, .cons h4 {
+                font-size: 1rem;
+            }
+            .flow-step {
+                padding: 10px 8px;
+                font-size: 0.85rem;
+                border-radius: 5px;
+            }
+            .flow-step::after {
+                font-size: 16px;
+                margin: 3px 0;
+            }
+            .comparison-table th, .comparison-table td {
+                padding: 6px;
+                font-size: 0.8rem;
+            }
+            .traditional-row, .eip7702-row {
+                font-size: 0.8rem;
+            }
         }
     </style>
 </head>

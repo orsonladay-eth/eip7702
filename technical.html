@@ -15,6 +15,8 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="EIP-7702 技术详解 - 授权机制与实现原理 | Crypto8848">
     <meta property="twitter:description" content="深入了解EIP-7702的技术细节、工作原理和实现方式。">
+    <meta property="twitter:image" content="images/eip-7702.jpg">
+    <meta property="og:image" content="images/eip-7702.jpg">
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="https://crypto8848.com/images/logo.svg">
     <link rel="shortcut icon" type="image/svg+xml" href="https://crypto8848.com/images/logo.svg">
@@ -242,6 +244,173 @@
 
         .solidity-number {
             color: #d19a66;
+        }
+
+        /* 移动设备优化 */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px 5px;
+            }
+            .container {
+                padding: 15px;
+                margin-top: 10px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-top: 1.5rem;
+                margin-bottom: 0.75rem;
+            }
+            h3 {
+                font-size: 1.3rem;
+                margin-top: 1.25rem;
+                margin-bottom: 0.5rem;
+            }
+            p {
+                font-size: 0.95rem;
+                line-height: 1.5;
+                margin-bottom: 0.75rem;
+            }
+            ul, ol {
+                padding-left: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            li {
+                margin-bottom: 0.5rem;
+                font-size: 0.95rem;
+            }
+            .nav-center {
+                margin: 15px 0;
+                gap: 5px;
+            }
+            .nav-button {
+                padding: 8px 15px;
+                margin: 2px;
+                font-size: 0.9rem;
+                min-width: 70px;
+                text-align: center;
+            }
+            .code-block {
+                font-size: 0.85rem;
+                padding: 12px 10px;
+                overflow-x: auto;
+                line-height: 1.4;
+                margin: 1rem 0;
+                border-radius: 6px;
+            }
+            .highlight {
+                padding: 12px;
+                margin: 1rem 0;
+                font-size: 0.95rem;
+                border-radius: 6px;
+            }
+            .table-container {
+                width: 100%;
+                overflow-x: auto;
+                margin: 1rem 0;
+                border-radius: 6px;
+            }
+            table {
+                font-size: 0.9rem;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 8px;
+                border: 1px solid #ddd;
+            }
+            .solidity-code {
+                font-size: 0.85rem;
+                padding: 12px 10px;
+                overflow-x: auto;
+                line-height: 1.4;
+                margin: 1rem 0;
+                border-radius: 6px;
+            }
+            .warning {
+                padding: 12px;
+                margin: 1rem 0;
+                font-size: 0.95rem;
+                border-radius: 6px;
+            }
+            section {
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.5rem;
+            }
+            footer {
+                margin-top: 2rem;
+                padding-top: 1rem;
+            }
+            footer p {
+                font-size: 0.85rem;
+                margin-bottom: 0.5rem;
+            }
+            .nav-buttons {
+                margin-top: 30px;
+                padding-top: 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            body {
+                padding: 5px;
+            }
+            .container {
+                padding: 12px 10px;
+                border-radius: 8px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+                margin-top: 1.25rem;
+            }
+            h3 {
+                font-size: 1.15rem;
+            }
+            p, li {
+                font-size: 0.9rem;
+            }
+            .nav-button {
+                padding: 6px 10px;
+                font-size: 0.85rem;
+                margin: 2px;
+                min-width: 60px;
+                border-radius: 6px;
+            }
+            .code-block {
+                font-size: 0.8rem;
+                padding: 10px 8px;
+                border-radius: 5px;
+            }
+            .code-comment {
+                display: block;
+                margin-bottom: 3px;
+            }
+            .solidity-code {
+                font-size: 0.8rem;
+                padding: 10px 8px;
+                border-radius: 5px;
+            }
+            .solidity-comment, .solidity-keyword, .solidity-type, .solidity-function, .solidity-string, .solidity-number {
+                display: inline-block;
+                margin-bottom: 2px;
+            }
+            table {
+                font-size: 0.8rem;
+            }
+            th, td {
+                padding: 6px;
+            }
+            .warning {
+                padding: 10px 8px;
+                font-size: 0.85rem;
+                border-radius: 5px;
+            }
         }
     </style>
 </head>
